@@ -1,0 +1,469 @@
+term_type,term_year,college,level,headcount
+Fall,2017,Agriculture & Life Sciences,Graduate,730
+Fall,2017,Agriculture & Life Sciences,Undergraduate,4603
+Fall,2017,Business,Graduate,334
+Fall,2017,Business,Undergraduate,4587
+Fall,2017,Design,Graduate,190
+Fall,2017,Design,Undergraduate,1849
+Fall,2017,Engineering,Graduate,1414
+Fall,2017,Engineering,Undergraduate,8255
+Fall,2017,Health & Human Sciences,Graduate,618
+Fall,2017,Health & Human Sciences,Undergraduate,4022
+Fall,2017,Interdepartmental / Undeclared,Graduate,342
+Fall,2017,Liberal Arts & Sciences,Graduate,1194
+Fall,2017,Liberal Arts & Sciences,Undergraduate,7090
+Fall,2017,Not assigned to a college,Post-Doc,328
+Fall,2017,Veterinary Medicine,Graduate,169
+Fall,2017,Veterinary Medicine,Professional,596
+Spring,2017,Agriculture & Life Sciences,Graduate,709
+Spring,2017,Agriculture & Life Sciences,Undergraduate,4356
+Spring,2017,Business,Graduate,344
+Spring,2017,Business,Undergraduate,4318
+Spring,2017,Design,Graduate,156
+Spring,2017,Design,Undergraduate,1780
+Spring,2017,Engineering,Graduate,1334
+Spring,2017,Engineering,Undergraduate,7324
+Spring,2017,Health & Human Sciences,Graduate,659
+Spring,2017,Health & Human Sciences,Undergraduate,4008
+Spring,2017,Interdepartmental / Undeclared,Graduate,382
+Spring,2017,Liberal Arts & Sciences,Graduate,1140
+Spring,2017,Liberal Arts & Sciences,Undergraduate,6548
+Spring,2017,Not assigned to a college,Post-Doc,305
+Spring,2017,Veterinary Medicine,Graduate,159
+Spring,2017,Veterinary Medicine,Professional,586
+Summer,2017,Agriculture & Life Sciences,Graduate,500
+Summer,2017,Agriculture & Life Sciences,Undergraduate,1014
+Summer,2017,Business,Graduate,179
+Summer,2017,Business,Undergraduate,1072
+Summer,2017,Design,Graduate,61
+Summer,2017,Design,Undergraduate,363
+Summer,2017,Engineering,Graduate,884
+Summer,2017,Engineering,Undergraduate,2515
+Summer,2017,Health & Human Sciences,Graduate,514
+Summer,2017,Health & Human Sciences,Undergraduate,1361
+Summer,2017,Interdepartmental / Undeclared,Graduate,200
+Summer,2017,Liberal Arts & Sciences,Graduate,759
+Summer,2017,Liberal Arts & Sciences,Undergraduate,2060
+Summer,2017,Not assigned to a college,Post-Doc,330
+Summer,2017,Veterinary Medicine,Graduate,98
+Summer,2017,Veterinary Medicine,Professional,150
+Fall,2018,Agriculture & Life Sciences,Graduate,686
+Fall,2018,Agriculture & Life Sciences,Undergraduate,4397
+Fall,2018,Business,Graduate,319
+Fall,2018,Business,Undergraduate,4612
+Fall,2018,Design,Graduate,186
+Fall,2018,Design,Undergraduate,1742
+Fall,2018,Engineering,Graduate,1337
+Fall,2018,Engineering,Undergraduate,8193
+Fall,2018,Health & Human Sciences,Graduate,615
+Fall,2018,Health & Human Sciences,Undergraduate,3770
+Fall,2018,Interdepartmental / Undeclared,Graduate,338
+Fall,2018,Liberal Arts & Sciences,Graduate,1128
+Fall,2018,Liberal Arts & Sciences,Undergraduate,6907
+Fall,2018,Veterinary Medicine,Graduate,165
+Fall,2018,Veterinary Medicine,Professional,597
+Spring,2018,Agriculture & Life Sciences,Graduate,704
+Spring,2018,Agriculture & Life Sciences,Undergraduate,4248
+Spring,2018,Business,Graduate,315
+Spring,2018,Business,Undergraduate,4418
+Spring,2018,Design,Graduate,188
+Spring,2018,Design,Undergraduate,1744
+Spring,2018,Engineering,Graduate,1379
+Spring,2018,Engineering,Undergraduate,7282
+Spring,2018,Health & Human Sciences,Graduate,608
+Spring,2018,Health & Human Sciences,Undergraduate,3812
+Spring,2018,Interdepartmental / Undeclared,Graduate,302
+Spring,2018,Liberal Arts & Sciences,Graduate,1127
+Spring,2018,Liberal Arts & Sciences,Undergraduate,6152
+Spring,2018,Not assigned to a college,Post-Doc,319
+Spring,2018,Veterinary Medicine,Graduate,154
+Spring,2018,Veterinary Medicine,Professional,593
+Summer,2018,Agriculture & Life Sciences,Graduate,463
+Summer,2018,Agriculture & Life Sciences,Undergraduate,950
+Summer,2018,Business,Graduate,135
+Summer,2018,Business,Undergraduate,1157
+Summer,2018,Design,Graduate,77
+Summer,2018,Design,Undergraduate,366
+Summer,2018,Engineering,Graduate,905
+Summer,2018,Engineering,Undergraduate,2398
+Summer,2018,Health & Human Sciences,Graduate,522
+Summer,2018,Health & Human Sciences,Undergraduate,1231
+Summer,2018,Interdepartmental / Undeclared,Graduate,180
+Summer,2018,Liberal Arts & Sciences,Graduate,746
+Summer,2018,Liberal Arts & Sciences,Undergraduate,1947
+Summer,2018,Not assigned to a college,Post-Doc,345
+Summer,2018,Veterinary Medicine,Graduate,98
+Summer,2018,Veterinary Medicine,Professional,155
+Fall,2019,Agriculture & Life Sciences,Graduate,652
+Fall,2019,Agriculture & Life Sciences,Undergraduate,4169
+Fall,2019,Business,Graduate,335
+Fall,2019,Business,Undergraduate,4485
+Fall,2019,Design,Graduate,163
+Fall,2019,Design,Undergraduate,1742
+Fall,2019,Engineering,Graduate,1181
+Fall,2019,Engineering,Undergraduate,7598
+Fall,2019,Health & Human Sciences,Graduate,619
+Fall,2019,Health & Human Sciences,Undergraduate,3505
+Fall,2019,Interdepartmental / Undeclared,Graduate,319
+Fall,2019,Liberal Arts & Sciences,Graduate,1080
+Fall,2019,Liberal Arts & Sciences,Undergraduate,6795
+Fall,2019,Veterinary Medicine,Graduate,149
+Fall,2019,Veterinary Medicine,Professional,599
+Spring,2019,Agriculture & Life Sciences,Graduate,690
+Spring,2019,Agriculture & Life Sciences,Undergraduate,4134
+Spring,2019,Business,Graduate,287
+Spring,2019,Business,Undergraduate,4410
+Spring,2019,Design,Graduate,179
+Spring,2019,Design,Undergraduate,1684
+Spring,2019,Engineering,Graduate,1323
+Spring,2019,Engineering,Undergraduate,7144
+Spring,2019,Health & Human Sciences,Graduate,626
+Spring,2019,Health & Human Sciences,Undergraduate,3604
+Spring,2019,Interdepartmental / Undeclared,Graduate,304
+Spring,2019,Liberal Arts & Sciences,Graduate,1063
+Spring,2019,Liberal Arts & Sciences,Undergraduate,6151
+Spring,2019,Veterinary Medicine,Graduate,158
+Spring,2019,Veterinary Medicine,Professional,595
+Summer,2019,Agriculture & Life Sciences,Graduate,465
+Summer,2019,Agriculture & Life Sciences,Undergraduate,853
+Summer,2019,Business,Graduate,150
+Summer,2019,Business,Undergraduate,1037
+Summer,2019,Design,Graduate,61
+Summer,2019,Design,Undergraduate,363
+Summer,2019,Engineering,Graduate,850
+Summer,2019,Engineering,Undergraduate,2462
+Summer,2019,Health & Human Sciences,Graduate,501
+Summer,2019,Health & Human Sciences,Undergraduate,1091
+Summer,2019,Interdepartmental / Undeclared,Graduate,213
+Summer,2019,Liberal Arts & Sciences,Graduate,706
+Summer,2019,Liberal Arts & Sciences,Undergraduate,1806
+Summer,2019,Veterinary Medicine,Graduate,107
+Summer,2019,Veterinary Medicine,Professional,141
+Fall,2020,Agriculture & Life Sciences,Graduate,580
+Fall,2020,Agriculture & Life Sciences,Undergraduate,3954
+Fall,2020,Business,Graduate,405
+Fall,2020,Business,Undergraduate,4308
+Fall,2020,Design,Graduate,144
+Fall,2020,Design,Undergraduate,1746
+Fall,2020,Engineering,Graduate,1069
+Fall,2020,Engineering,Undergraduate,7029
+Fall,2020,Health & Human Sciences,Graduate,614
+Fall,2020,Health & Human Sciences,Undergraduate,3387
+Fall,2020,Interdepartmental / Undeclared,Graduate,308
+Fall,2020,Liberal Arts & Sciences,Graduate,1072
+Fall,2020,Liberal Arts & Sciences,Undergraduate,6422
+Fall,2020,Veterinary Medicine,Graduate,160
+Fall,2020,Veterinary Medicine,Professional,627
+Spring,2020,Agriculture & Life Sciences,Graduate,609
+Spring,2020,Agriculture & Life Sciences,Undergraduate,3866
+Spring,2020,Business,Graduate,334
+Spring,2020,Business,Undergraduate,4241
+Spring,2020,Design,Graduate,155
+Spring,2020,Design,Undergraduate,1663
+Spring,2020,Engineering,Graduate,1099
+Spring,2020,Engineering,Undergraduate,6677
+Spring,2020,Health & Human Sciences,Graduate,593
+Spring,2020,Health & Human Sciences,Undergraduate,3350
+Spring,2020,Interdepartmental / Undeclared,Graduate,289
+Spring,2020,Liberal Arts & Sciences,Graduate,1057
+Spring,2020,Liberal Arts & Sciences,Undergraduate,6087
+Spring,2020,Veterinary Medicine,Graduate,154
+Spring,2020,Veterinary Medicine,Professional,599
+Summer,2020,Agriculture & Life Sciences,Graduate,438
+Summer,2020,Agriculture & Life Sciences,Undergraduate,804
+Summer,2020,Business,Graduate,178
+Summer,2020,Business,Undergraduate,1058
+Summer,2020,Design,Graduate,43
+Summer,2020,Design,Undergraduate,324
+Summer,2020,Engineering,Graduate,731
+Summer,2020,Engineering,Undergraduate,1946
+Summer,2020,Health & Human Sciences,Graduate,459
+Summer,2020,Health & Human Sciences,Undergraduate,963
+Summer,2020,Interdepartmental / Undeclared,Graduate,199
+Summer,2020,Liberal Arts & Sciences,Graduate,709
+Summer,2020,Liberal Arts & Sciences,Undergraduate,1746
+Summer,2020,Veterinary Medicine,Graduate,96
+Summer,2020,Veterinary Medicine,Professional,151
+Fall,2021,Agriculture & Life Sciences,Graduate,557
+Fall,2021,Agriculture & Life Sciences,Undergraduate,3844
+Fall,2021,Business,Graduate,389
+Fall,2021,Business,Undergraduate,4333
+Fall,2021,Design,Graduate,163
+Fall,2021,Design,Undergraduate,1762
+Fall,2021,Engineering,Graduate,1054
+Fall,2021,Engineering,Undergraduate,6543
+Fall,2021,Health & Human Sciences,Graduate,526
+Fall,2021,Health & Human Sciences,Undergraduate,3153
+Fall,2021,Interdepartmental / Undeclared,Graduate,277
+Fall,2021,Liberal Arts & Sciences,Graduate,1133
+Fall,2021,Liberal Arts & Sciences,Undergraduate,6173
+Fall,2021,Veterinary Medicine,Graduate,165
+Fall,2021,Veterinary Medicine,Professional,636
+Spring,2021,Agriculture & Life Sciences,Graduate,580
+Spring,2021,Agriculture & Life Sciences,Undergraduate,3650
+Spring,2021,Business,Graduate,399
+Spring,2021,Business,Undergraduate,4067
+Spring,2021,Design,Graduate,146
+Spring,2021,Design,Undergraduate,1627
+Spring,2021,Engineering,Graduate,1090
+Spring,2021,Engineering,Undergraduate,6181
+Spring,2021,Health & Human Sciences,Graduate,590
+Spring,2021,Health & Human Sciences,Undergraduate,3191
+Spring,2021,Interdepartmental / Undeclared,Graduate,258
+Spring,2021,Liberal Arts & Sciences,Graduate,1053
+Spring,2021,Liberal Arts & Sciences,Undergraduate,5766
+Spring,2021,Veterinary Medicine,Graduate,149
+Spring,2021,Veterinary Medicine,Professional,621
+Summer,2021,Agriculture & Life Sciences,Graduate,395
+Summer,2021,Agriculture & Life Sciences,Undergraduate,787
+Summer,2021,Business,Graduate,164
+Summer,2021,Business,Undergraduate,894
+Summer,2021,Design,Graduate,59
+Summer,2021,Design,Undergraduate,291
+Summer,2021,Engineering,Graduate,708
+Summer,2021,Engineering,Undergraduate,1816
+Summer,2021,Health & Human Sciences,Graduate,406
+Summer,2021,Health & Human Sciences,Undergraduate,894
+Summer,2021,Interdepartmental / Undeclared,Graduate,170
+Summer,2021,Liberal Arts & Sciences,Graduate,715
+Summer,2021,Liberal Arts & Sciences,Undergraduate,1520
+Summer,2021,Veterinary Medicine,Graduate,96
+Summer,2021,Veterinary Medicine,Professional,159
+Fall,2022,Agriculture & Life Sciences,Graduate,541
+Fall,2022,Agriculture & Life Sciences,Undergraduate,3769
+Fall,2022,Business,Graduate,423
+Fall,2022,Business,Undergraduate,4285
+Fall,2022,Design,Graduate,170
+Fall,2022,Design,Undergraduate,1793
+Fall,2022,Engineering,Graduate,998
+Fall,2022,Engineering,Undergraduate,6593
+Fall,2022,Health & Human Sciences,Graduate,494
+Fall,2022,Health & Human Sciences,Undergraduate,3022
+Fall,2022,Interdepartmental / Undeclared,Graduate,244
+Fall,2022,Liberal Arts & Sciences,Graduate,1066
+Fall,2022,Liberal Arts & Sciences,Undergraduate,5779
+Fall,2022,Veterinary Medicine,Graduate,158
+Fall,2022,Veterinary Medicine,Professional,634
+Spring,2022,Agriculture & Life Sciences,Graduate,555
+Spring,2022,Agriculture & Life Sciences,Undergraduate,3594
+Spring,2022,Business,Graduate,381
+Spring,2022,Business,Undergraduate,4124
+Spring,2022,Design,Graduate,151
+Spring,2022,Design,Undergraduate,1695
+Spring,2022,Engineering,Graduate,1055
+Spring,2022,Engineering,Undergraduate,5693
+Spring,2022,Health & Human Sciences,Graduate,501
+Spring,2022,Health & Human Sciences,Undergraduate,2946
+Spring,2022,Interdepartmental / Undeclared,Graduate,231
+Spring,2022,Liberal Arts & Sciences,Graduate,1085
+Spring,2022,Liberal Arts & Sciences,Undergraduate,5553
+Spring,2022,Veterinary Medicine,Graduate,163
+Spring,2022,Veterinary Medicine,Professional,632
+Summer,2022,Agriculture & Life Sciences,Graduate,407
+Summer,2022,Agriculture & Life Sciences,Undergraduate,724
+Summer,2022,Business,Graduate,169
+Summer,2022,Business,Undergraduate,867
+Summer,2022,Design,Graduate,63
+Summer,2022,Design,Undergraduate,304
+Summer,2022,Engineering,Graduate,699
+Summer,2022,Engineering,Undergraduate,1513
+Summer,2022,Health & Human Sciences,Graduate,311
+Summer,2022,Health & Human Sciences,Undergraduate,761
+Summer,2022,Interdepartmental / Undeclared,Graduate,96
+Summer,2022,Liberal Arts & Sciences,Graduate,738
+Summer,2022,Liberal Arts & Sciences,Undergraduate,1485
+Summer,2022,Veterinary Medicine,Graduate,100
+Summer,2022,Veterinary Medicine,Professional,166
+Fall,2023,Agriculture & Life Sciences,Graduate,540
+Fall,2023,Agriculture & Life Sciences,Undergraduate,3710
+Fall,2023,Business,Graduate,440
+Fall,2023,Business,Undergraduate,4380
+Fall,2023,Design,Graduate,176
+Fall,2023,Design,Undergraduate,1927
+Fall,2023,Engineering,Graduate,1082
+Fall,2023,Engineering,Undergraduate,6725
+Fall,2023,Health & Human Sciences,Graduate,493
+Fall,2023,Health & Human Sciences,Undergraduate,2888
+Fall,2023,Interdepartmental / Undeclared,Graduate,253
+Fall,2023,Liberal Arts & Sciences,Graduate,1060
+Fall,2023,Liberal Arts & Sciences,Undergraduate,5702
+Fall,2023,Veterinary Medicine,Graduate,166
+Fall,2023,Veterinary Medicine,Professional,635
+Spring,2023,Agriculture & Life Sciences,Graduate,534
+Spring,2023,Agriculture & Life Sciences,Undergraduate,3569
+Spring,2023,Business,Graduate,423
+Spring,2023,Business,Undergraduate,4008
+Spring,2023,Design,Graduate,154
+Spring,2023,Design,Undergraduate,1710
+Spring,2023,Engineering,Graduate,1028
+Spring,2023,Engineering,Undergraduate,5913
+Spring,2023,Health & Human Sciences,Graduate,482
+Spring,2023,Health & Human Sciences,Undergraduate,2837
+Spring,2023,Interdepartmental / Undeclared,Graduate,205
+Spring,2023,Liberal Arts & Sciences,Graduate,1013
+Spring,2023,Liberal Arts & Sciences,Undergraduate,5201
+Spring,2023,Veterinary Medicine,Graduate,152
+Spring,2023,Veterinary Medicine,Professional,625
+Summer,2023,Agriculture & Life Sciences,Graduate,417
+Summer,2023,Agriculture & Life Sciences,Undergraduate,722
+Summer,2023,Business,Graduate,171
+Summer,2023,Business,Undergraduate,806
+Summer,2023,Design,Graduate,56
+Summer,2023,Design,Undergraduate,283
+Summer,2023,Engineering,Graduate,730
+Summer,2023,Engineering,Undergraduate,1854
+Summer,2023,Health & Human Sciences,Graduate,315
+Summer,2023,Health & Human Sciences,Undergraduate,698
+Summer,2023,Interdepartmental / Undeclared,Graduate,104
+Summer,2023,Liberal Arts & Sciences,Graduate,702
+Summer,2023,Liberal Arts & Sciences,Undergraduate,1355
+Summer,2023,Veterinary Medicine,Graduate,94
+Summer,2023,Veterinary Medicine,Professional,161
+Fall,2024,Agriculture & Life Sciences,Graduate,599
+Fall,2024,Agriculture & Life Sciences,Undergraduate,3659
+Fall,2024,Business,Graduate,475
+Fall,2024,Business,Undergraduate,4722
+Fall,2024,Design,Graduate,170
+Fall,2024,Design,Undergraduate,1960
+Fall,2024,Engineering,Graduate,1251
+Fall,2024,Engineering,Undergraduate,6978
+Fall,2024,Health & Human Sciences,Graduate,452
+Fall,2024,Health & Human Sciences,Undergraduate,2827
+Fall,2024,Liberal Arts & Sciences,Graduate,1065
+Fall,2024,Liberal Arts & Sciences,Undergraduate,5305
+Fall,2024,Veterinary Medicine,Graduate,131
+Fall,2024,Veterinary Medicine,Professional,634
+Fall,2024,Visiting Students,Graduate,27
+Fall,2024,Visiting Students,Undergraduate,177
+Spring,2024,Agriculture & Life Sciences,Graduate,532
+Spring,2024,Agriculture & Life Sciences,Undergraduate,3480
+Spring,2024,Business,Graduate,443
+Spring,2024,Business,Undergraduate,4293
+Spring,2024,Design,Graduate,161
+Spring,2024,Design,Undergraduate,1853
+Spring,2024,Engineering,Graduate,1091
+Spring,2024,Engineering,Undergraduate,6029
+Spring,2024,Health & Human Sciences,Graduate,463
+Spring,2024,Health & Human Sciences,Undergraduate,2725
+Spring,2024,Interdepartmental / Undeclared,Graduate,236
+Spring,2024,Liberal Arts & Sciences,Graduate,1035
+Spring,2024,Liberal Arts & Sciences,Undergraduate,5036
+Spring,2024,Veterinary Medicine,Graduate,144
+Spring,2024,Veterinary Medicine,Professional,631
+Summer,2024,Agriculture & Life Sciences,Graduate,391
+Summer,2024,Agriculture & Life Sciences,Undergraduate,561
+Summer,2024,Business,Graduate,179
+Summer,2024,Business,Undergraduate,762
+Summer,2024,Design,Graduate,51
+Summer,2024,Design,Undergraduate,194
+Summer,2024,Engineering,Graduate,767
+Summer,2024,Engineering,Undergraduate,1362
+Summer,2024,Health & Human Sciences,Graduate,290
+Summer,2024,Health & Human Sciences,Undergraduate,631
+Summer,2024,Interdepartmental / Undeclared,Graduate,128
+Summer,2024,Liberal Arts & Sciences,Graduate,664
+Summer,2024,Liberal Arts & Sciences,Undergraduate,1156
+Summer,2024,Veterinary Medicine,Graduate,85
+Summer,2024,Veterinary Medicine,Professional,154
+Fall,2025,Agriculture & Life Sciences,Graduate,564
+Fall,2025,Agriculture & Life Sciences,Undergraduate,3720
+Fall,2025,Business,Graduate,498
+Fall,2025,Business,Undergraduate,4903
+Fall,2025,Design,Graduate,156
+Fall,2025,Design,Undergraduate,2016
+Fall,2025,Engineering,Graduate,1210
+Fall,2025,Engineering,Undergraduate,7418
+Fall,2025,Health & Human Sciences,Graduate,436
+Fall,2025,Health & Human Sciences,Undergraduate,2875
+Fall,2025,Interdepartmental / Undeclared,Graduate,30
+Fall,2025,Liberal Arts & Sciences,Graduate,1037
+Fall,2025,Liberal Arts & Sciences,Undergraduate,5231
+Fall,2025,Veterinary Medicine,Graduate,141
+Fall,2025,Veterinary Medicine,Professional,643
+Fall,2025,Visiting Students,Graduate,44
+Fall,2025,Visiting Students,Undergraduate,183
+Spring,2025,Agriculture & Life Sciences,Graduate,573
+Spring,2025,Agriculture & Life Sciences,Undergraduate,3431
+Spring,2025,Business,Graduate,464
+Spring,2025,Business,Undergraduate,4501
+Spring,2025,Design,Graduate,157
+Spring,2025,Design,Undergraduate,1878
+Spring,2025,Engineering,Graduate,1237
+Spring,2025,Engineering,Undergraduate,6330
+Spring,2025,Health & Human Sciences,Graduate,432
+Spring,2025,Health & Human Sciences,Undergraduate,2676
+Spring,2025,Interdepartmental / Undeclared,Graduate,21
+Spring,2025,Liberal Arts & Sciences,Graduate,1001
+Spring,2025,Liberal Arts & Sciences,Undergraduate,4870
+Spring,2025,Veterinary Medicine,Graduate,128
+Spring,2025,Veterinary Medicine,Professional,624
+Spring,2025,Visiting Students,Graduate,38
+Spring,2025,Visiting Students,Undergraduate,175
+Summer,2025,Agriculture & Life Sciences,Graduate,423
+Summer,2025,Agriculture & Life Sciences,Undergraduate,512
+Summer,2025,Business,Graduate,183
+Summer,2025,Business,Undergraduate,713
+Summer,2025,Design,Graduate,40
+Summer,2025,Design,Undergraduate,209
+Summer,2025,Engineering,Graduate,810
+Summer,2025,Engineering,Undergraduate,1345
+Summer,2025,Health & Human Sciences,Graduate,277
+Summer,2025,Health & Human Sciences,Undergraduate,544
+Summer,2025,Interdepartmental / Undeclared,Graduate,9
+Summer,2025,Liberal Arts & Sciences,Graduate,640
+Summer,2025,Liberal Arts & Sciences,Undergraduate,1125
+Summer,2025,Veterinary Medicine,Graduate,82
+Summer,2025,Veterinary Medicine,Professional,157
+Summer,2025,Visiting Students,Graduate,20
+Summer,2025,Visiting Students,Undergraduate,39
+Fall,2026,Agriculture & Life Sciences,Graduate,502
+Fall,2026,Agriculture & Life Sciences,Undergraduate,3774
+Fall,2026,Business,Graduate,495
+Fall,2026,Business,Undergraduate,4913
+Fall,2026,Design,Graduate,150
+Fall,2026,Design,Undergraduate,2078
+Fall,2026,Engineering,Graduate,1051
+Fall,2026,Engineering,Undergraduate,7642
+Fall,2026,Health & Human Sciences,Graduate,440
+Fall,2026,Health & Human Sciences,Undergraduate,2813
+Fall,2026,Interdepartmental / Undeclared,Graduate,25
+Fall,2026,Liberal Arts & Sciences,Graduate,972
+Fall,2026,Liberal Arts & Sciences,Undergraduate,4923
+Fall,2026,Veterinary Medicine,Graduate,143
+Fall,2026,Veterinary Medicine,Professional,649
+Fall,2026,Visiting Students,Graduate,39
+Fall,2026,Visiting Students,Undergraduate,163
+Spring,2026,Agriculture & Life Sciences,Graduate,546
+Spring,2026,Agriculture & Life Sciences,Undergraduate,3505
+Spring,2026,Business,Graduate,497
+Spring,2026,Business,Undergraduate,4660
+Spring,2026,Design,Graduate,147
+Spring,2026,Design,Undergraduate,1939
+Spring,2026,Engineering,Graduate,1173
+Spring,2026,Engineering,Undergraduate,6703
+Spring,2026,Health & Human Sciences,Graduate,428
+Spring,2026,Health & Human Sciences,Undergraduate,2638
+Spring,2026,Interdepartmental / Undeclared,Graduate,21
+Spring,2026,Liberal Arts & Sciences,Graduate,996
+Spring,2026,Liberal Arts & Sciences,Undergraduate,4722
+Spring,2026,Veterinary Medicine,Graduate,133
+Spring,2026,Veterinary Medicine,Professional,633
+Spring,2026,Visiting Students,Graduate,22
+Spring,2026,Visiting Students,Undergraduate,185
+Summer,2026,Agriculture & Life Sciences,Graduate,384
+Summer,2026,Agriculture & Life Sciences,Undergraduate,495
+Summer,2026,Business,Graduate,179
+Summer,2026,Business,Undergraduate,768
+Summer,2026,Design,Graduate,33
+Summer,2026,Design,Undergraduate,205
+Summer,2026,Engineering,Graduate,750
+Summer,2026,Engineering,Undergraduate,1314
+Summer,2026,Health & Human Sciences,Graduate,255
+Summer,2026,Health & Human Sciences,Undergraduate,451
+Summer,2026,Interdepartmental / Undeclared,Graduate,13
+Summer,2026,Liberal Arts & Sciences,Graduate,643
+Summer,2026,Liberal Arts & Sciences,Undergraduate,1022
+Summer,2026,Veterinary Medicine,Graduate,88
+Summer,2026,Veterinary Medicine,Professional,155
+Summer,2026,Visiting Students,Graduate,8
+Summer,2026,Visiting Students,Undergraduate,20

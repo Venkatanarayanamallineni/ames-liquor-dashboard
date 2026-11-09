@@ -1,0 +1,7 @@
+# Raw data is too big for git. Download it again from data.iowa.gov.
+data/raw/*.csv
+# Local database built by run_etl.py
+*.duckdb
+*.duckdb.wal
+.tmp/
+__pycache__/
