@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Ames Liquor Dashboard</title>
+  <desc id="d">Animated banner with rising bubbles and a moving wave</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1b1d"/>
+      <stop offset="0.55" stop-color="#7a0f22"/>
+      <stop offset="1" stop-color="#c8102e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f1be48"/>
+      <stop offset="1" stop-color="#ffe29a"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 56px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #ffffff; }
+    .sub   { font: 400 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f6e7ea; }
+    .tag   { font: 600 16px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #1b1b1d; }
+    .bub { fill: #ffffff; opacity: 0; animation: rise 7s linear infinite; }
+    .b1 { animation-delay: 0s;   } .b2 { animation-delay: 1.2s; } .b3 { animation-delay: 2.6s; }
+    .b4 { animation-delay: 3.4s; } .b5 { animation-delay: 4.5s; } .b6 { animation-delay: 5.6s; }
+    .b7 { animation-delay: 0.7s; } .b8 { animation-delay: 3.9s; }
+    @keyframes rise {
+      0%   { transform: translateY(0);      opacity: 0; }
+      12%  { opacity: 0.45; }
+      90%  { opacity: 0.2; }
+      100% { transform: translateY(-330px); opacity: 0; }
+    }
+    .wave1 { animation: slide 9s linear infinite; }
+    .wave2 { animation: slide 14s linear infinite reverse; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    .fadein { animation: fade 1.6s ease-out both; }
+    .fadein2 { animation: fade 1.6s ease-out 0.5s both; }
+    @keyframes fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
+    @media (prefers-reduced-motion: reduce) {
+      .bub, .wave1, .wave2, .fadein, .fadein2, .pulse { animation: none; }
+      .bub { opacity: 0.25; }
+    }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- bubbles -->
+    <circle class="bub b1" cx="130"  cy="300" r="9"/>
+    <circle class="bub b2" cx="310"  cy="300" r="14"/>
+    <circle class="bub b3" cx="520"  cy="300" r="7"/>
+    <circle class="bub b4" cx="760"  cy="300" r="12"/>
+    <circle class="bub b5" cx="940"  cy="300" r="8"/>
+    <circle class="bub b6" cx="1080" cy="300" r="15"/>
+    <circle class="bub b7" cx="40"   cy="300" r="6"/>
+    <circle class="bub b8" cx="650"  cy="300" r="10"/>
+
+    <!-- waves: each path is 1800 wide so the 600px slide loops with no jump -->
+    <g class="wave2" opacity="0.35">
+      <path fill="#f1be48" d="M0 262 q150 -26 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V300 H0 Z"/>
+    </g>
+    <g class="wave1" opacity="0.55">
+      <path fill="#ffffff" d="M0 276 q150 -20 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V300 H0 Z"/>
+    </g>
+
+    <!-- text -->
+    <g class="fadein">
+      <text class="title" x="60" y="130">Ames Liquor Dashboard</text>
+    </g>
+    <g class="fadein2">
+      <text class="sub" x="62" y="176">10 years of spirits buying in Ames, Iowa</text>
+      <text class="sub" x="62" y="208">students, football weeks, covid, and one messy dataset</text>
+    </g>
+
+    <!-- tag -->
+    <g class="pulse">
+      <rect x="62" y="228" rx="14" ry="14" width="300" height="30" fill="url(#gold)"/>
+      <text class="tag" x="78" y="249">SQL  ·  DuckDB  ·  Python  ·  Tableau</text>
+    </g>
+  </g>
+</svg>

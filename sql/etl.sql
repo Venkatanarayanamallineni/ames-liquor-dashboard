@@ -118,6 +118,7 @@ FROM ames_liquor
 GROUP BY CAST(date_trunc('month', sale_date) AS DATE), category_name, covid_period;
 
 -- STEP 10. Enrollment and students.
+-- liters_per_student = ALL Ames liters / ISU headcount. Buyers include locals and staff.
 -- Month to term: Jan-May Spring, Jun-Jul Summer, Aug-Dec Fall (rough).
 -- LEFT JOIN so a month with no enrollment row yet is kept, with a blank headcount.
 CREATE OR REPLACE TABLE enrollment_detail AS

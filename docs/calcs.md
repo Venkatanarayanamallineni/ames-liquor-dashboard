@@ -16,6 +16,9 @@ MONTH([month_start]) <= MONTH({ MAX([month_start]) })
 Keeps only Jan up to the latest month in the data, for every year. Put it on Filters, set to True.
 Without it, the current partial year looks like a crash next to full years.
 
+## Liters per enrolled student (naming note)
+Numerator is ALL Ames purchases (students, locals, staff). Denominator is ISU headcount. Label it "per enrolled student". Never say "bought by students".
+
 ## term_type filter (liters per student sheets)
 `term_type <> 'Summer'`
 Summer is excluded because many non-students live in Ames all year.
