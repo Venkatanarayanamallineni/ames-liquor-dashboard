@@ -1,0 +1,6 @@
+test,correlation,n
+"Enrollment vs monthly liters, Fall terms",-0.02,10
+"Enrollment vs monthly liters, Spring terms",0.04,10
+Year over year: enrollment change vs liters change (Fall and Spring),-0.52,18
+"Year over year, covid-touching pairs removed (2020 to 2022)",-0.43,12
+Active stores vs monthly liters (all months),-0.1,118

@@ -37,20 +37,21 @@
   <img src="docs/img/liters-per-student.png" alt="Ames spirits liters per enrolled ISU student per month, Spring and Fall, 2017 to 2026. All Ames buyers, not only students." width="720">
 </p>
 
-- Liters per enrolled student (all Ames buyers divided by ISU headcount) peaked in 2020 to 2021, then came back down to about the 2019 level. It is a ratio, not what students bought.
-- Liters bought peaked in 2021. Average price per liter rose about 29% from 2017 to 2024, then flattened.
-- Spring 2026 is about 9.5% lower than Spring 2025. Two stores (Sam's Club and Hy-Vee #1) explain about 70% of that drop.
+**Ames spirits volume peaked in 2021 and is now below 2018. Buyers traded down and bought smaller bottles, prices rose about 30%, and more stores split the same bottles.**
+
+- Jan to Oct liters: 476K (2017), 566K (2021), 418K (2026). Down 12% from 2017.
+- Price per liter rose 30% ($14.43 to $18.75). About 84% was same-category price, 16% category mix.
+- Traded down: value tier 44% to 52% of liters, premium 16% to 14%. Mini bottles almost doubled.
+- Stores grew 26 to 43, liters per store fell 47%.
+- Students set the rhythm, not the trend: June and July run about 22% lower every year, but enrollment size does not predict volume.
+- Football is a nudge: about 14% more on the Wed and Thu before a game.
 
 <p align="center">
   <img src="docs/img/active-stores.png" alt="Active Ames stores buying spirits by year" width="720">
 </p>
 
-- More stores, fewer liters. The number of active stores grew from 26 to 43, but many of the new ones are small.
-- Stores buy on Wednesday and Thursday. Almost nothing on weekends.
-- Weekdays before ISU games run about 7% to 22% above normal weekdays. Home games were not higher than away games, so this may be the football season and not the game itself.
-
-### I also tested this and it did not hold up
-Price vs volume. Overall the link was weak (r = -0.27) and it disappeared inside one category (r = +0.11, American Vodkas). The pattern was mostly category mix, not buyers reacting to price. I did not claim it.
+### Tested and rejected
+Price vs volume (r = -0.27, gone inside one category), stores vs liters (r = -0.10), a +72% post-game lift (tiny weekday baseline), and a +153% pre-game lift (a weekday artifact). Full list and limits: [docs/findings.md](docs/findings.md).
 
 ---
 
@@ -76,6 +77,7 @@ flowchart LR
 | 4 | Real types, covid period, clean category names | Dates came as `2017-01-23` and `1/3/2017`. Four category codes were spelled two ways |
 | 5 to 8 | Football game windows (game day -3 to +3), joined to sales | Stores order ahead of a game, not on game day |
 | 9 to 10 | Small tables and enrollment per term | Keeps Tableau simple |
+| 10b to 10f | Price vs mix, trade-down tiers, bottle size, drivers, game by game | Tests each idea before it becomes a claim |
 
 Covid periods: before 2020-03-17, until 2023-05-11, after.
 
