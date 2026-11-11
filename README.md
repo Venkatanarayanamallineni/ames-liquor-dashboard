@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#">View the Tableau dashboard</a> (link coming after I publish it)
+  <a href="https://public.tableau.com/views/AmesIowa/Hero?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">View the Tableau dashboard</a> (link coming after I publish it)
 </p>
 
 ---
