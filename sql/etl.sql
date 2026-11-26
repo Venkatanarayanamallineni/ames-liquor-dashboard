@@ -4,8 +4,8 @@
 -- STEP 1. Point at every raw liquor file. Read everything as text.
 -- Old files have blanks and 2 date formats, so no types yet.
 -- A view keeps memory low. Nothing is copied until a step needs it.
-CREATE OR REPLACE VIEW raw AS
-SELECT * FROM read_csv('data/raw/*.csv', all_varchar=true, union_by_name=true, filename=true);
+
+--"Python Builds it now"
 
 -- STEP 2. Ames stores: any store_no ever labeled AMES.
 CREATE OR REPLACE TABLE ames_stores AS
