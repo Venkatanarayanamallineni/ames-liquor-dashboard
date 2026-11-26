@@ -97,11 +97,26 @@ def run_checks(con):
     ).fetchone()[0]
     results.append(("one name per category code (per coding period)", n == 0, f"{n} codes with 2+ names"))
 
-    # 5. Missing headcount = warning only. Update enrollment by hand.
+    # 5. No exact duplicate rows left (overlapping part files are the main known defect).
+    #    Also report how many copies the dedupe step removed.
+    before = con.execute(
+        "SELECT count(*) FROM raw WHERE store_no IN (SELECT store_no FROM ames_stores)"
+    ).fetchone()[0]
+    a = con.execute("SELECT count(*) FROM ames_raw").fetchone()[0]
+    b = con.execute("SELECT count(*) FROM (SELECT DISTINCT * FROM ames_raw)").fetchone()[0]
+    results.append(("no exact duplicate rows", a == b, f"{a - b} left, {before - a} removed by dedupe"))
+
+    # 6. One game per date, so the football join cannot double count sales.
+    n = con.execute(
+        "SELECT count(*) FROM (SELECT window_date FROM game_days GROUP BY 1 HAVING count(*) > 1)"
+    ).fetchone()[0]
+    results.append(("one game per date", n == 0, f"{n} dates with 2+ games"))
+
+    # Warning: missing headcount. Update enrollment by hand.
     n = con.execute("SELECT count(*) FROM monthly_students WHERE headcount IS NULL").fetchone()[0]
     print(f"{'WARN' if n else 'OK  '}  months missing headcount: {n}")
 
-    # 6. No year lost rows vs the last good run (more than 1% drop = fail).
+    # 7. No year lost rows vs the last good run (more than 1% drop = fail).
     con.execute(
         "CREATE OR REPLACE TEMP TABLE year_now AS "
         "SELECT yr, count(*) AS n FROM ames_liquor GROUP BY yr ORDER BY yr"
